@@ -10,7 +10,7 @@ body{
 position: absolute;
 color:#fff;
 text-align: center;
-top: 100px;
+top: 31%;
 left: 50%;
 transform: translate(-50%, 0);
 line-height: 60px;
@@ -25,9 +25,34 @@ opacity: 0.9;
 width: 50%;
 height: 1180px;
 height:400px;
+justify-content: center;
 }
-.texto-img{
+
+.texto-logo {
     position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    line-height: 60px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    opacity: 0.9;
+    width: 50%;
+    height: 1180px;
+    height:400px;
+    justify-content: center;
+    }
+
+.container-img{
+    position: relative;
+
 
 }
 /*.logo{
@@ -52,11 +77,12 @@ height:400px;
 .navbar{
     /* Rectangle 1 */
 position: absolute;
-width: 1440px;
 height: 55px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
+overflow:hidden;
+width:100%;
 }
 
 .nav-item{
@@ -81,7 +107,6 @@ color: #3E3E3E;
 .img-fluid{
 position: relative;
 height: 50px;
-width:  ;
 
 display: flex;
 flex-direction: column;
@@ -91,10 +116,14 @@ align-items: flex-start;
 }
 
 .responsive-img img{
-margin-bottom: 5%;
+filter: opacity(0.7);
+
 }
 
 .img-logo{
     filter: opacity(0,7);
+    margin-bottom: 5%;
+    }
+    
 }
 
