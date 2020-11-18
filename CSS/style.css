@@ -1,3 +1,4 @@
+
 body{
     background-color: black !important; 
 }
@@ -35,6 +36,7 @@ width: 50%;
 justify-content: center;
 }
 
+
 .texto-logo {
     position: absolute;
     color:#fff;
@@ -56,6 +58,25 @@ justify-content: center;
     height:400px;
     justify-content: center;
     }
+
+span{
+    display: inline-block;
+    animation: mover 2s;
+}    
+@keyframes mover{
+     0%{
+         text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+     }
+     50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(30px);
+     }
+     100%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+     }
+     
+
+}
 
 .container-img{
     position: relative;
